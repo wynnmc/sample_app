@@ -1,0 +1,51 @@
+;; -*- mode: emacs-lisp; coding: emacs-mule; -*-
+;; --------------------------------------------------------------------------
+;; Desktop File for Emacs
+;; --------------------------------------------------------------------------
+;; Created Sat Oct 19 21:47:03 2013
+;; Desktop file format version 206
+;; Emacs version 24.3.1
+
+;; Global section:
+(setq desktop-missing-file-warning nil)
+(setq tags-file-name nil)
+(setq tags-table-list nil)
+(setq search-ring nil)
+(setq regexp-search-ring nil)
+(setq register-alist nil)
+(setq file-name-history '("~/sample_app/config/initializers/secret_token.rb" "~/sample_app/.gitignore"))
+
+;; Buffer section -- buffers listed in same order as in buffer list:
+(desktop-create-buffer 206
+  "/home/chris/sample_app/Gemfile"
+  "Gemfile"
+  'text-mode
+  '(auto-fill-mode)
+  663
+  '(624 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/chris/sample_app/config/initializers/secret_token.rb"
+  "secret_token.rb"
+  'ruby-mode
+  nil
+  714
+  '(855 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/chris/sample_app/.gitignore"
+  ".gitignore"
+  'text-mode
+  '(auto-fill-mode)
+  534
+  '(456 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
