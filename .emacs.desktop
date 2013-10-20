@@ -2,7 +2,7 @@
 ;; --------------------------------------------------------------------------
 ;; Desktop File for Emacs
 ;; --------------------------------------------------------------------------
-;; Created Sat Oct 19 21:47:03 2013
+;; Created Sun Oct 20 18:11:34 2013
 ;; Desktop file format version 206
 ;; Emacs version 24.3.1
 
@@ -16,6 +16,17 @@
 (setq file-name-history '("~/sample_app/config/initializers/secret_token.rb" "~/sample_app/.gitignore"))
 
 ;; Buffer section -- buffers listed in same order as in buffer list:
+(desktop-create-buffer 206
+  "/home/chris/sample_app/README.rdoc"
+  "README.rdoc"
+  'text-mode
+  '(auto-fill-mode)
+  184
+  '(1 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
 (desktop-create-buffer 206
   "/home/chris/sample_app/Gemfile"
   "Gemfile"
